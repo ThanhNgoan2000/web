@@ -1,0 +1,68 @@
+
+.header_style .container{
+    width: 100%;
+    height: 50px;
+    background: white;
+    position: fixed;
+    top: 0px;
+}
+.one-third{
+
+  margin-left: 20%;
+}
+.one-third img{
+    margin: 10px;
+}
+
+.two-thirds{
+    position: fixed;
+    right: 10%;
+    top: 2px;
+    margin: 10px;
+}
+.htext_style{
+    position: fixed;
+    top: 2px;
+    right: 25%;
+    margin: 10px;
+}
+
+#section_normal_4_2, .big_padding{
+    background-color: #101d72;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;      /*Căn chỉnh nội dung bên trong container có flexbox*/
+    align-items: stretch;           /*Căn chỉnh phần tử con theo hướng vuông góc hướng chính*/
+
+}
+.img_style{
+    display: block;
+    margin-left: 10%;
+    height: 300px;
+}
+.eight.columns.alpha{
+    margin-top: 5%;
+    position: absolute;
+    left: 20%;
+
+}
+.eight.columns.omega{
+    margin-left: 50%;
+    display: block;
+    width: 45%;
+    color: white;
+}
+.sixteen.columns{
+    height: 400px;
+}
+.big_title{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.pix_button{
+    width: 100px;
+    height: 70px;
+    background-color: aquamarine;
+}
